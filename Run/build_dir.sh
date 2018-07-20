@@ -40,3 +40,18 @@ if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixC/RootFile" ]; then
 	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixC/RootFile
 fi
 
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs" ]; then
+	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/CrossSection" ]; then
+	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/Parameter" ]; then
+	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/RootFile" ]; then
+	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/FixHs/RootFile
+fi
