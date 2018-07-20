@@ -10,7 +10,7 @@ function rand(){
 
 mkdir C
 cd C
-for i in {1..1}
+for i in {1..100}
 do
 	mkdir Combination$i
 	cd Combination$i
