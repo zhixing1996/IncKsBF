@@ -199,7 +199,7 @@ int main(){
 	thecs->SetParName(6, "A"); // form factor
 	thecs->SetParameter(6, 12.5474); 
 	thecs->SetParName(7, "GF"); // width of J/psi->f
-	thecs->SetParameter(7, 3.324 * 0.0000001); 
+	thecs->SetParameter(7, 3.324 * 0.00000001); 
 	thecs->SetParName(8, "hs"); // the ratio of |A_{cont}|/|A_{EM}|
 	thecs->SetParameter(8, seed_hs);
 	
