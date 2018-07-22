@@ -12,11 +12,6 @@ function rand(){
 	echo $(($num%$max+$min))    
 }
 
-if [ -d "Hs" ]; then
-       	rm Hs -rf
-       	mkdir Hs
-fi
-
 if [ ! -d "Hs" ]; then
        	mkdir Hs
 fi

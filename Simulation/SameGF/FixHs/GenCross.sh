@@ -8,11 +8,6 @@ function rand(){
 	echo $(($num%$max+$min))    
 }
 
-if [ -d "C" ]; then
-        rm C -rf
-        mkdir C
-fi
-
 if [ ! -d "C" ]; then
         mkdir C
 fi

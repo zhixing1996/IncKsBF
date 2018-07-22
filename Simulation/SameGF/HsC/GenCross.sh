@@ -8,11 +8,6 @@ function rand(){
 	echo $(($num%$max+$min))    
 }
 
-if [ -d "HsC" ]; then
-        rm HsC -rf
-        mkdir HsC
-fi
-
 if [ ! -d "HsC" ]; then
         mkdir HsC
 fi

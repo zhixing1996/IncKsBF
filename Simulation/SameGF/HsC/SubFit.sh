@@ -4,11 +4,6 @@
 # Author JING Maoqiang <jingmq@ihep.ac.cn>
 # Created [2018-07-22 Sun 12:10] 
 
-if [ -d "Fit" ]; then 
-	rm Fit -rf
-	mkdir Fit
-fi
-
 if [ ! -d "Fit" ]; then 
 	mkdir Fit
 fi
