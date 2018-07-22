@@ -227,14 +227,10 @@ int main(int argc, char *argv[]){
 
 	stringstream num;
 	num<<argv[argc-1];
-	TString dog="../../Hs/Combination"+num.str()+"/hs.txt";
-	ifstream hs(dog);
-	double HS[50];
 	for (int i=0;i<50;i++){
-		hs>>HS[i];
 		stringstream hs1;
-		hs1 << HS[i];
-		TString grape="../../Hs/Combination"+num.str()+"/"+hs1.str()+"/cross_section.txt";
+		hs1 << i;
+		TString grape="../../Hs/Combination"+num.str()+"/sub_xs_"+hs1.str()+"/cross_section.txt";
 		ifstream cross(grape);
 		for(int j=0;j<Npoints;j++){
 			cross >> ecm0[j] >> temp_cross;
@@ -298,8 +294,8 @@ int main(int argc, char *argv[]){
 	double sum_bf=0;
 	for (int i=0;i<50;i++){
 		stringstream hs2;
-		hs2 << HS[i];
-		TString monkey="../../Hs/Combination"+num.str()+"/"+hs2.str()+"/branch_ratio.txt";
+		hs2 << i;
+		TString monkey="../../Hs/Combination"+num.str()+"/sub_xs_"+hs2.str()+"/branch_ratio.txt";
 		ifstream BF(monkey);
 		BF>>bf;
 		sum_bf+=bf;
@@ -322,6 +318,7 @@ int main(int argc, char *argv[]){
 	paras<<"A: "<<thecs->GetParameter(6)<<" +/- "<<thecs->GetParError(6)<<endl;
 	paras<<"Gamma f: "<<thecs->GetParameter(7)<<" +/- "<<thecs->GetParError(7)<<endl;
 	paras<<"h(s): "<<thecs->GetParameter(8)<<" +/- "<<thecs->GetParError(8)<<endl;
+	paras<<"Sum Of sub_xc's Branch Ratio: "<<sum_bf<<endl;
 	paras<<"Branch Ratio: "<<Br<<endl;
 	paras<<"Branch Ratio Relative Difference: "<<(Br-sum_bf)/sum_bf<<endl;
 	paras.close();
