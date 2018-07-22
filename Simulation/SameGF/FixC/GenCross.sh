@@ -54,8 +54,8 @@ case $option in
 		done
 	;;
 
-	0.2) echo "Running on 10~20 combinations..."
-		for i in {10..20}
+	0.2) echo "Running on 11~20 combinations..."
+		for i in {11..20}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -82,8 +82,8 @@ case $option in
 		done
 	;;
 
-	0.3) echo "Running on 20~30 combinations..."
-		for i in {20..30}
+	0.3) echo "Running on 21~30 combinations..."
+		for i in {21..30}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -110,8 +110,8 @@ case $option in
 		done
 	;;
 
-	0.4) echo "Running on 30~40 combinations..."
-		for i in {30..40}
+	0.4) echo "Running on 31~40 combinations..."
+		for i in {31..40}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -138,8 +138,8 @@ case $option in
 		done
 	;;
 
-	0.5) echo "Running on 40~50 combinations..."
-		for i in {40..50}
+	0.5) echo "Running on 41~50 combinations..."
+		for i in {41..50}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -166,8 +166,8 @@ case $option in
 		done
 	;;
 
-	0.6) echo "Running on 50~60 combinations..."
-		for i in {50..60}
+	0.6) echo "Running on 51~60 combinations..."
+		for i in {51..60}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -194,8 +194,8 @@ case $option in
 		done
 	;;
 
-	0.7) echo "Running on 60~70 combinations..."
-		for i in {60..70}
+	0.7) echo "Running on 61~70 combinations..."
+		for i in {61..70}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -222,8 +222,8 @@ case $option in
 		done
 	;;
 
-	0.8) echo "Running on 70~80 combinations..."
-		for i in {70..80}
+	0.8) echo "Running on 71~80 combinations..."
+		for i in {71..80}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -250,8 +250,8 @@ case $option in
 		done
 	;;
 
-	0.9) echo "Running on 80~90 combinations..."
-		for i in {80..90}
+	0.9) echo "Running on 81~90 combinations..."
+		for i in {81..90}
 		do
 			mkdir Combination$i
 			cd Combination$i
@@ -278,8 +278,8 @@ case $option in
 		done
 	;;
 
-	1.0) echo "Running on 90~100 combinations..."
-		for i in {90..100}
+	1.0) echo "Running on 91~100 combinations..."
+		for i in {91..100}
 		do
 			mkdir Combination$i
 			cd Combination$i
