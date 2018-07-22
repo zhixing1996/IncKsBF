@@ -11,6 +11,7 @@ usage() {
 	printf "\nOPTIONS\n"    
 	printf "\n\t%-9s  %-40s"  "0.1.1"      "Clean files for combinations of SameGF(FixC)"
 	printf "\n\t%-9s  %-40s"  "0.1.2"      "Clean files for combinations of SameGF(FixHs)"
+	printf "\n\t%-9s  %-40s"  "0.1.3"      "Clean files for combinations of SameGF(HsC)"
 	printf "\n\t%-9s  %-40s"  "1.0"      "[Clean all]"
 }
 
@@ -36,6 +37,12 @@ case $option in
 		rm ../Simulation/SameGF/FixHs/C -rf
 		rm ../Simulation/SameGF/FixHs/Combination -rf
 	;;
+
+	0.1.3) echo "Cleaning files for combinations of SameGF(HsC)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/HsC/*/* -rf
+		rm ../Simulation/SameGF/HsC/HsC -rf
+		rm ../Simulation/SameGF/HsC/Combination -rf
+	;;
 	
 	1.0) echo "Cleaning all..."
 		rm /besfs/groups/tauqcd/jingmq/IncKSBF -rf
@@ -45,6 +52,8 @@ case $option in
 		rm ../Simulation/SameGF/FixC/Combination -rf
 		rm ../Simulation/SameGF/FixHs/C -rf
 		rm ../Simulation/SameGF/FixHs/Combination -rf
+		rm ../Simulation/SameGF/HsC/HsC -rf
+		rm ../Simulation/SameGF/HsC/Combination -rf
 	;;
 
 esac
