@@ -71,3 +71,43 @@ fi
 if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/HsC/RootFile" ]; then
 	mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/SameGF/HsC/RootFile
 fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TenCross/RootFile
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/TwentyCross/RootFile
+fi
