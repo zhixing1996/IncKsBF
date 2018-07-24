@@ -40,7 +40,7 @@ done
 NUM=1
 mkdir Combination$i
 cd Combination$i
-for j in {1..40}
+for j in {1..50}
 do
 	RndHs[$j]=$(rand 1 10000)
 	decimal=`echo "scale=4; ${RndHs[$j]} / 10000 " | bc -l`
