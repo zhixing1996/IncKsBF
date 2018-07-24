@@ -160,3 +160,22 @@ if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FiftyCross/Roo
         mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FiftyCross/RootFile
 fi
 
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/RootFile
+fi
