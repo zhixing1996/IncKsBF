@@ -127,3 +127,19 @@ fi
 if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/ThirtyCross/RootFile" ]; then
         mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/ThirtyCross/RootFile
 fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/FortyCross/RootFile
+fi
