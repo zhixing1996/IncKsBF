@@ -51,7 +51,7 @@ do
 	sed -i s/'seed_C/'$k''/g fit_ks_phase.C
 	cd ..
 done
-dominantrnd=$(rand 0 50)
+dominantrnd=$(rand 1 50)
 cd sub_xs_$dominantrnd
 sed -i s/'seed_GF/3.324*0.00000001*50*0.1'/g fit_ks_phase.C
 ./job
@@ -72,7 +72,7 @@ do
 	if [ ! -d "sub_xs_$j" ]; then
 		gf=`echo "scale=8; 3.324 * 0.00000001 * 50 * 0.9 * ${IntRnd[$m]} / $sum " | bc -l`
 		cd sub_xs_$j
-		sed -i s/'seed_Bf/'$gf''/g fit_ks_phase.C
+		sed -i s/'seed_GF/'$gf''/g fit_ks_phase.C
 		./job
 		let "m = $m + 1"
 		cd ..
