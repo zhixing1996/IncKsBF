@@ -70,7 +70,7 @@ m=1
 for j in {1..50} 
 do
 	if [ "$j" != "$dominant" ]; then
-		gf=`echo "scale=8; 3.324 * 0.00000001 * 50 * 0.9 * ${IntRnd[$m]} / $sum " | bc -l`
+		gf=`echo "scale=15; 3.324 * 0.00000001 * 50 * 0.9 * ${IntRnd[$m]} / $sum " | bc -l`
 		cd sub_xs_$j
 		sed -i s/'seed_GF/'$gf''/g fit_ks_phase.C
 		./job
