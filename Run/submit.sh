@@ -14,6 +14,7 @@ usage() {
 	printf "\n\t%-5s  %-40s\n"  "0.1.3"    "[Run on same partial width(HsC)]" 
 	printf "\n\t%-5s  %-40s\n"  "0.1.4"    "[Run on random partial width(ten cross sections)]" 
 	printf "\n\t%-5s  %-40s\n"  "0.1.5"    "[Run on random partial width(twenty cross sections)]" 
+	printf "\n\t%-5s  %-40s\n"  "0.1.6"    "[Run on random partial width(thirty cross sections)]" 
 	printf "\nDATE\n"
 	printf "\n\t%-5s\n" "JULY 2018"
 }
@@ -55,5 +56,9 @@ case $option in
 	./sub_job.sh
 	;;
 
-esac
+	0.1.6) echo "Running on random partial width(thirty cross sections)..."
+	cd ../Simulation/RandGF/PartialRand/ThirtyCross
+	./sub_job.sh
+	;;
 
+esac

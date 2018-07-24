@@ -14,6 +14,7 @@ usage() {
 	printf "\n\t%-9s  %-40s"  "0.1.3"      "[Clean files for combinations of SameGF(HsC)]"
 	printf "\n\t%-9s  %-40s"  "0.1.4"      "[Clean files for combinations of RandGF(TenCross)]"
 	printf "\n\t%-9s  %-40s"  "0.1.5"      "[Clean files for combinations of RandGF(TwentyCross)]"
+	printf "\n\t%-9s  %-40s"  "0.1.6"      "[Clean files for combinations of RandGF(ThirtyCross)]"
 	printf "\n\t%-9s  %-40s"  "1.0"      "[Clean all]"
 }
 
@@ -58,6 +59,12 @@ case $option in
 		rm ../Simulation/RandGF/PartialRand/TwentyCross/Fit -rf
 	;;
 
+	0.1.6) echo "Cleaning files for combinations of RandGF(ThirtyCross)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/PartialRand/ThirtyCross/*/* -rf
+		rm ../Simulation/RandGF/PartialRand/ThirtyCross/HsC -rf
+		rm ../Simulation/RandGF/PartialRand/ThirtyCross/Fit -rf
+	;;
+
 	1.0) echo "Cleaning all..."
 		rm /besfs/groups/tauqcd/jingmq/IncKSBF -rf
 		rm ../Simulation/Logfile -rf
@@ -72,6 +79,8 @@ case $option in
 		rm ../Simulation/RandGF/PartialRand/TenCross/Fit -rf
 		rm ../Simulation/RandGF/PartialRand/TwentyCross/HsC -rf
 		rm ../Simulation/RandGF/PartialRand/TwentyCross/Fit -rf
+		rm ../Simulation/RandGF/PartialRand/ThirtyCross/HsC -rf
+		rm ../Simulation/RandGF/PartialRand/ThirtyCross/Fit -rf
 	;;
 
 esac
