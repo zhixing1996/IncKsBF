@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ..
+./GenCross.sh 1.0
+./SubFit.sh 1.0

@@ -18,6 +18,10 @@ usage() {
 	printf "\n\t%-5s  %-40s\n"  "0.1.7"    "[Run on random partial width(forty cross sections)]" 
 	printf "\n\t%-5s  %-40s\n"  "0.1.8"    "[Run on random partial width(fifty cross sections)]" 
 	printf "\n\t%-5s  %-40s\n"  "0.1.9"    "[Run on random partial width(10% dominant)]" 
+	printf "\n\t%-5s  %-40s\n"  "0.1.10"    "[Run on random partial width(20% dominant)]" 
+	printf "\n\t%-5s  %-40s\n"  "0.1.11"    "[Run on random partial width(30% dominant)]" 
+	printf "\n\t%-5s  %-40s\n"  "0.1.12"    "[Run on random partial width(40% dominant)]" 
+	printf "\n\t%-5s  %-40s\n"  "0.1.13"    "[Run on random partial width(50% dominant)]" 
 	printf "\nDATE\n"
 	printf "\n\t%-5s\n" "JULY 2018"
 }
@@ -76,6 +80,26 @@ case $option in
 
 	0.1.9) echo "Running on random partial width(10% dominant)..."
 	cd ../Simulation/RandGF/AllRand/TenPercent
+	./sub_job.sh
+	;;
+
+	0.1.10) echo "Running on random partial width(20% dominant)..."
+	cd ../Simulation/RandGF/AllRand/TwentyPercent
+	./sub_job.sh
+	;;
+
+	0.1.11) echo "Running on random partial width(30% dominant)..."
+	cd ../Simulation/RandGF/AllRand/ThirtyPercent
+	./sub_job.sh
+	;;
+
+	0.1.12) echo "Running on random partial width(40% dominant)..."
+	cd ../Simulation/RandGF/AllRand/FortyPercent
+	./sub_job.sh
+	;;
+
+	0.1.13) echo "Running on random partial width(50% dominant)..."
+	cd ../Simulation/RandGF/AllRand/FiftyPercent
 	./sub_job.sh
 	;;
 

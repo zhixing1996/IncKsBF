@@ -18,6 +18,10 @@ usage() {
 	printf "\n\t%-9s  %-40s"  "0.1.7"      "[Clean files for combinations of RandGF(FortyCross)]"
 	printf "\n\t%-9s  %-40s"  "0.1.8"      "[Clean files for combinations of RandGF(FiftyCross)]"
 	printf "\n\t%-9s  %-40s"  "0.1.9"      "[Clean files for combinations of RandGF(TenPercent)]"
+	printf "\n\t%-9s  %-40s"  "0.1.10"      "[Clean files for combinations of RandGF(TwentyPercent)]"
+	printf "\n\t%-9s  %-40s"  "0.1.11"      "[Clean files for combinations of RandGF(ThirtyPercent)]"
+	printf "\n\t%-9s  %-40s"  "0.1.12"      "[Clean files for combinations of RandGF(FortyPercent)]"
+	printf "\n\t%-9s  %-40s"  "0.1.13"      "[Clean files for combinations of RandGF(FiftyPercent)]"
 	printf "\n\t%-9s  %-40s"  "1.0"      "[Clean all]"
 }
 
@@ -85,6 +89,30 @@ case $option in
 		rm ../Simulation/RandGF/AllRand/TenPercent/Fit -rf
 	;;
 
+	0.1.10) echo "Cleaning files for combinations of RandGF(TwentyPercent)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/*/* -rf
+		rm ../Simulation/RandGF/AllRand/TwentyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/TwentyPercent/Fit -rf
+	;;
+
+	0.1.11) echo "Cleaning files for combinations of RandGF(ThirtyPercent)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/*/* -rf
+		rm ../Simulation/RandGF/AllRand/ThirtyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/ThirtyPercent/Fit -rf
+	;;
+
+	0.1.12) echo "Cleaning files for combinations of RandGF(FortyPercent)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/*/* -rf
+		rm ../Simulation/RandGF/AllRand/FortyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/FortyPercent/Fit -rf
+	;;
+
+	0.1.13) echo "Cleaning files for combinations of RandGF(FiftyPercent)..."
+		rm /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/*/* -rf
+		rm ../Simulation/RandGF/AllRand/FiftyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/FiftyPercent/Fit -rf
+	;;
+
 	1.0) echo "Cleaning all..."
 		rm /besfs/groups/tauqcd/jingmq/IncKSBF -rf
 		rm ../Simulation/Logfile -rf
@@ -107,6 +135,14 @@ case $option in
 		rm ../Simulation/RandGF/PartialRand/FiftyCross/Fit -rf
 		rm ../Simulation/RandGF/AllRand/TenPercent/HsC -rf
 		rm ../Simulation/RandGF/AllRand/TenPercent/Fit -rf
+		rm ../Simulation/RandGF/AllRand/TwentyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/TwentyPercent/Fit -rf
+		rm ../Simulation/RandGF/AllRand/ThirtyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/ThirtyPercent/Fit -rf
+		rm ../Simulation/RandGF/AllRand/FortyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/FortyPercent/Fit -rf
+		rm ../Simulation/RandGF/AllRand/FiftyPercent/HsC -rf
+		rm ../Simulation/RandGF/AllRand/FiftyPercent/Fit -rf
 	;;
 
 esac

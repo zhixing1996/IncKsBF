@@ -179,3 +179,67 @@ fi
 if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/RootFile" ]; then
         mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TenPercent/RootFile
 fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/TwentyPercent/RootFile
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/ThirtyPercent/RootFile
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FortyPercent/RootFile
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/CrossSection" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/CrossSection
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/Parameter" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/Parameter
+fi
+
+if [ ! -d "/besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/RootFile" ]; then
+        mkdir /besfs/groups/tauqcd/jingmq/IncKSBF/RandGF/AllRand/FiftyPercent/RootFile
+fi
